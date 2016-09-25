@@ -1,15 +1,12 @@
+import com.despegar.sbt.madonna.Madonna
 import com.earldouglas.xwp.JettyPlugin
+import com.mojolly.scalate.ScalatePlugin.ScalateKeys._
+import com.mojolly.scalate.ScalatePlugin._
 import com.typesafe.sbt.SbtScalariform
 import com.typesafe.sbt.SbtScalariform.ScalariformKeys
 import sbt.Keys._
 import sbt._
-import org.scalatra.sbt._
-import org.scalatra.sbt.PluginKeys._
-import com.despegar.sbt.madonna.Madonna
 import sbtbuildinfo.Plugin._
-import scalariform.formatter.preferences._
-import com.mojolly.scalate.ScalatePlugin._
-import ScalateKeys._
 
 object $name;format="Camel"$Build extends Build {
 	

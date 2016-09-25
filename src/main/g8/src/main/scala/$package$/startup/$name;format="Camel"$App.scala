@@ -1,9 +1,5 @@
 package $package$.startup
 
-import java.util.EnumSet
-import java.util.EnumSet
-import javax.servlet.DispatcherType
-
 import org.eclipse.jetty.server.{HttpConfiguration, HttpConnectionFactory, Server, ServerConnector}
 import org.eclipse.jetty.servlet.DefaultServlet
 import org.eclipse.jetty.util.thread.QueuedThreadPool
